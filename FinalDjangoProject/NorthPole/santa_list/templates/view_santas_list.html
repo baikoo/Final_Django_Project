@@ -1,0 +1,13 @@
+<h1>Santa's List</h1>
+<h2>Nice List</h2>
+<ul>
+    {% for kid in nice_list %}
+        <li>{{ kid.name }}</li>
+    {% endfor %}
+</ul>
+<h2>Naughty List</h2>
+<ul>
+    {% for kid in naughty_list %}
+        <li>{{ kid.name }}</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,6 @@
+<h1>All Kids</h1>
+<ul>
+    {% for kid in kids %}
+        <li>{{ kid.name }} - Niceness Coefficient: {{ kid.niceness_coefficient }}</li>
+    {% endfor %}
+</ul>

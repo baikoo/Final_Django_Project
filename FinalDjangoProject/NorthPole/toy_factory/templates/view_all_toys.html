@@ -1,0 +1,6 @@
+<h1>All Toys</h1>
+<ul>
+    {% for toy in toys %}
+        <li>{{ toy.kid.name }} - {{ toy.toy_type }}</li>
+    {% endfor %}
+</ul>
